@@ -1,0 +1,3 @@
+# HP Disk Protection Python Requirements
+# No external dependencies required - uses only Python standard library
+# The program uses system calls and sysfs interfaces available on Linux
