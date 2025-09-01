@@ -1,8 +1,9 @@
 # HP Disk Protection (Python)
 
-Refactored Python daemon for HP laptops that detects freefall events and parks the hard drive heads to reduce damage risk. Reimplements the original C logic with clearer structure, logging, and systemd integration.
+Python daemon for HP laptops that detects freefall events and parks the hard drive heads to reduce damage risk.
 
-Like HP 3D DriveGuard for Linux protects traditional Hard Disk Drives (HDDs) by using an integrated accelerometer to detect drops or severe jolts, temporarily "parking" the HDD's read/write heads and halting operations to prevent data corruption or damage to the drive.
+Like HP 3D DriveGuard for Linux protects traditional Hard Disk Drives (HDDs) by using an integrated accelerometer to detect drops or severe jolts, 
+temporarily "parking" the HDD's read/write heads and halting operations to prevent data corruption or damage to the drive.
 
 ## Key Features
 - Monitors `/dev/freefall` for motion / drop events
